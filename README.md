@@ -1,5 +1,4 @@
 # lesson-session
-___
 ### por Geraldo
 ___
 
