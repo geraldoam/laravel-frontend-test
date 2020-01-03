@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	background-color: #4D4D4D;
+}
+
+
+/* Navbar */
+.navbarColor{
+	background-color: #393939;
+}
+
+.navbarColorWhite{
+	color: #FFFFFF;
+}
+
+.navbarColorCyan{
+	color: #00FFDB;
+}
+
+
+/* Form Login */
+
+.formIconWhite{
+	color: #FFFFFF;
+}
+
+.formTextWhite{
+	color: #E5E5E5;
+}
+
+.formPlaceholderCenter{
+	text-align: center;
+}
+
+.formFormat{
+	margin-top: 150px;
+	width: 400px;
+}
+
+.formButtonsFormat{
+	text-align: right;
+}
+
+.formSpace{
+	margin-top: 40px;
+}
