@@ -18,7 +18,7 @@ body{
 }
 
 
-/* Form Login */
+/* Form Login e Registro*/
 
 .formIconWhite{
 	color: #FFFFFF;
@@ -32,10 +32,6 @@ body{
 	text-align: center;
 }
 
-.formFormat{
-	margin-top: 150px;
-	width: 400px;
-}
 
 .formButtonsFormat{
 	text-align: right;
@@ -43,4 +39,18 @@ body{
 
 .formSpace{
 	margin-top: 40px;
+}
+
+.formSpaceVerify{
+	margin-top: 20px;
+}
+
+.formFormatLogin{
+	margin-top: 150px;
+	width: 400px;
+}
+
+.formFormatRegister{
+	margin-top: 100px;
+	width: 400px;
 }
