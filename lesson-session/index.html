@@ -4,6 +4,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="google-signin-client_id" content="983154479117-45rklckq7dmbpfuqhit5rnb3kq7l4rq7.apps.googleusercontent.com">
 	<title>Lesson Session - Login</title>
 
 	<!--- CSS --->
@@ -17,7 +18,7 @@
 	<nav class="navbar navbarColor">
 	  <a class="navbar-brand navbarColorWhite active" href="index.html">
 	  	<i class="fas fa-user-graduate"></i>  
-	    &nbsp;	| &nbsp; Lession Session
+	    &nbsp;	| &nbsp; Lession Session <p id='msg'></p>
 	  </a>
 	</nav>
 
@@ -27,7 +28,7 @@
 		<form>
 
 		  <div class="form-group">
-		    <center><i class="fas fa-envelope formIconWhite" style="position: center;"></i></center>
+		    <center><i class="fas fa-envelope formIconWhite"></i></center>
 		    <input type="email" class="form-control formPlaceholderCenter" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required="true">
 		  </div>
 
@@ -40,9 +41,11 @@
 		  	<button type="submit" class="btn btn-sm btn-info">Entrar</button>
 		  	<a class="btn btn-sm btn-secondary" href="registrar.html">Registrar</a>
 		  </div>
-
 		</form>
-	</div>
+
+		<button type="submit" class="btn btn-sm btn-warning">Google</button>
+
+	</div>	
 
 
 	<!--- Scripts --->
@@ -50,6 +53,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/7afebb249a.js" crossorigin="anonymous"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </body>
 </html>
