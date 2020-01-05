@@ -18,7 +18,7 @@
 	<nav class="navbar navbarColor">
 	  <a class="navbar-brand navbarColorWhite active" href="index.html">
 	  	<i class="fas fa-user-graduate"></i>  
-	    &nbsp;	| &nbsp; Lession Session <p id='msg'></p>
+	    &nbsp;	| &nbsp; Lession Session
 	  </a>
 	</nav>
 
@@ -39,7 +39,7 @@
 
 		  <div class="formButtonsFormat">
 		  	<button type="submit" class="btn btn-sm btn-info">Entrar</button>
-		  	<a class="btn btn-sm btn-secondary" href="registrar.html">Registrar</a>
+		  	<a class="btn btn-sm btn-secondary" href="registrar.php">Registrar</a>
 		  </div>
 		</form>	
 

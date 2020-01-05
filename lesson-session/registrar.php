@@ -52,7 +52,7 @@
 
 		  <div class="formButtonsFormat">
 		  	<button type="submit" class="btn btn-sm btn-info">Registrar</button>
-		  	<a class="btn btn-sm btn-secondary" href="index.html">Entrar</a>
+		  	<a class="btn btn-sm btn-secondary" href="index.php">Entrar</a>
 		  </div>
 
 		  <div class="g-signin2" data-onsuccess="onSignIn"></div>
