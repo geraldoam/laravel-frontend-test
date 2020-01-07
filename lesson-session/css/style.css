@@ -66,3 +66,33 @@ navbarColorWhite:hover, .active{
 	padding: 30px;
 	border-radius: 10px;
 }
+
+
+/* Jumbotron */
+
+.jumbotronStyle{
+	color: white;
+	background-color: #4D4D4D;
+}
+
+.jumbotronGray{
+	color: #B8B8B8;
+}
+
+
+
+/* Media Object */
+
+.mediaIconSize{
+	height: 64px;
+	width: 64px;
+	color: #60C6D5;
+}
+
+.mediaColorTitle{
+	color: white;
+}
+
+.mediaColorText{
+	color: #DDDDDD;
+}
