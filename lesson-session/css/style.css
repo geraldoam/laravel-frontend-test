@@ -1,12 +1,12 @@
 body{
 	margin: 0;
-	background-color: #4D4D4D;
+	background-color: #625A5A;
 }
 
 
 /* Navbar */
 .navbarColor{
-	background-color: #393939;
+	background-color: #333333;
 }
 
 .navbarColorWhite{
@@ -17,9 +17,10 @@ navbarColorWhite:hover, .active{
 	color: #FFFFFF!important;
 }
 
-.navbarColorCyan{
-	color: #00FFDB;
+.navbarLoginPositionIcons{
+	float: right;
 }
+
 
 
 
@@ -72,11 +73,11 @@ navbarColorWhite:hover, .active{
 
 .jumbotronStyle{
 	color: white;
-	background-color: #4D4D4D;
+	background-color: #625A5A;
 }
 
 .jumbotronGray{
-	color: #B8B8B8;
+	color: #CFC7C7;
 }
 
 
@@ -86,13 +87,27 @@ navbarColorWhite:hover, .active{
 .mediaIconSize{
 	height: 64px;
 	width: 64px;
-	color: #60C6D5;
+	color: #51eaea;
 }
 
 .mediaColorTitle{
-	color: white;
+	color: #FFFFFF;
 }
 
 .mediaColorText{
-	color: #DDDDDD;
+	color: #CFC7C7;
+}
+
+
+
+/* Panel Control */
+
+.panelStyle{
+	margin-top: 40px;
+	background-color: #393939;
+	color: #FFFFFF;
+}
+
+.panelContainerButtons{
+	width: 500px;
 }
