@@ -3,7 +3,7 @@
 ___
 
 
-> Atualmente, front-end para um projeto futuro.
+> Atualmente, front-end que possivelmente será dedicado a um projeto.
 
 
 > Utiliza Bootstrap em CDN e FontAwesome Free.
