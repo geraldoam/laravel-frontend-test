@@ -1,17 +1,10 @@
-<?php
-session_start();
- 
-require_once 'init.php';
-require_once 'check.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
 
+	<!--- Metas --->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-signin-client_id" content="983154479117-fbds9i4h6jfvdmkjsrvqiojd1n53od33.apps.googleusercontent.com">
     <title>Lesson Session - Central</title>
 
     <!--- CSS --->
@@ -23,15 +16,12 @@ require_once 'check.php';
     
     <!-- Navbar -->
     <nav class="navbar navbarColor">
-      <a class="navbar-brand navbarColorWhite active" href="index.php">
+      <a class="navbar-brand navbarColorWhite active" href="index.html">
         <i class="fas fa-user-graduate"></i>  
-        &nbsp;  | &nbsp; Lession Session
+        &nbsp;  | &nbsp; Lesson Session
       </a>
-      <?php if (isLoggedIn()): ?>
-            <a class="btn btn-sm btn-danger" href="logout.php">Sair da Conta</a>
-        <?php else: ?>
-            <a class="btn btn-sm btn-info" href="form-login.php">Entrar</a>
-        <?php endif; ?>
+        <a class="btn btn-sm btn-danger" href="logout.html">Sair da Conta</a>
+        <a class="btn btn-sm btn-info" href="form-login.html">Entrar</a>
     </nav>
 
 
@@ -41,8 +31,7 @@ require_once 'check.php';
 	    <i class="fas fa-user"></i>
 	  </div>
 	  <div class="card-body">
-	    <h5 class="card-title display-4">Olá, <?php echo $_SESSION['user_name']; 
-            ?>. </h5>
+	    <h5 class="card-title display-4">Olá, Usuário.</h5>
 	    <p class="card-text lead">Selecione a área que deseja explorar abaixo.</p>
 
 	   <div class="container panelContainerButtons">
@@ -79,7 +68,4 @@ require_once 'check.php';
 
 
 </body>
-</html>
-
-    </body>
 </html>

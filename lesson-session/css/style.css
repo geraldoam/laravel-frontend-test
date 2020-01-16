@@ -3,6 +3,12 @@ body{
 	background-color: #625A5A;
 }
 
+/* Fonts */
+
+.fontRaleway{
+	font-family: 'Raleway', sans-serif;
+}
+
 
 /* Navbar */
 .navbarColor{
