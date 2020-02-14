@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	background-color: #625A5A;
+}
+
+/* Fonts */
+
+.fontRaleway{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* Navbar */
+.navbarColor{
+	background-color: #333333;
+}
+
+.navbarColorWhite{
+	color: #FFFFFF;
+}
+
+navbarColorWhite:hover, .active{
+	color: gray;
+}
+
+.navbarLoginPositionIcons{
+	float: right;
+}
+
+.navbarSpaceButton{
+	margin: 5px;
+}
+
+
+.navbarButtonRegister{
+	background-color: #18b844;
+	color: white;
+}
+
+
+
+/* Form Login e Registro*/
+
+.formIconWhite{
+	color: white;
+}
+
+.formTextWhite{
+	color: #E5E5E5;
+}
+
+.formPlaceholderCenter{
+	text-align: center;
+}
+
+
+.formButtonsFormat{
+	text-align: right;
+}
+
+.formSpace{
+	margin-top: 30px;
+}
+
+.formSpaceVerify{
+	margin-top: 20px;
+}
+
+.formFormatLogin{
+	margin-top: 80px;
+	width: 350px;
+	background-color: #393939;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.formFormatRegister{
+	margin-top: 40px;
+	width: 350px;
+	background-color: #393939;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+
+/* Jumbotron */
+
+.jumbotronStyle{
+	color: white;
+	background-color: #625A5A;
+}
+
+.jumbotronGray{
+	color: #CFC7C7;
+}
+
+
+
+/* Media Object */
+
+.mediaIconSize{
+	height: 64px;
+	width: 64px;
+	color: #5cc77e;
+}
+
+.mediaColorTitle{
+	color: #FFFFFF;
+}
+
+.mediaColorText{
+	color: #CFC7C7;
+}
+
+
+
+/* Panel Control */
+
+.panelStyle{
+	margin-top: 40px;
+	background-color: #393939;
+	color: #FFFFFF;
+}
+
+.panelButton{
+	background-color: #4ea3bb;
+	color: white;
+}
+
+
+
+/* Card */
+
+.cardSettings{
+	margin-top: 50px;
+}
+
+.cardColorSettings{
+	background-color: #333333;
+}
+
+.cardIconColors{
+	color: #5cc77e;
+}
+
+.cardTitleColor{
+	color: #FFFFFF;
+}
+
+
+.cardTextColor{
+	color: #CFC7C7;
+}
+
+.cardButtonColor{
+	background-color: #3b9959;
+	color: #333333;
+}
+
+.cardIconsShare{
+	color: #18b844;
+}
+
+.example_e {
+border: none;
+background: #3b9959;
+color: #ffffff !important;
+font-weight: 2;
+padding: 8px;
+border-radius: 8px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+width: 120px;
+}
+
+.example_e:hover {
+color: #ffffff !important;
+font-weight: 700 !important;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+
+
+/* Footer */
+
+.footerPropriets{
+	color: white;
+	margin-top: 6%;
+
+}
+
+.footerButtonColors{
+	background-color: #7a7a7a;
+}
+

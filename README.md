@@ -1,9 +1,6 @@
-# Lesson Session
-### por Geraldo
+![Build Status](https://img.shields.io/badge/status-desenvolvimento-sucess)
 ___
 
+## Lesson Session
 
-> Atualmente, front-end que possivelmente será dedicado a um projeto.
-
-
-> Utiliza Bootstrap em CDN e FontAwesome Free.
+### Utilizando o framework Laravel para confecção de um simples site.
